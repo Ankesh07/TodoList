@@ -22,11 +22,11 @@ const Form = ({ onAdd }) => {
   const classes = useStyles();
   const submit = (event) => {
     event.preventDefault();
-    if (!values.title && !values.desc) {
-      alert("Please fill all details !");
+    if (values.title && values.desc) {
+        onAdd(values);
+        setValues({ title: "", desc: "" });
     } else {
-      onAdd(values);
-      setValues({ title: "", desc: "" });
+      alert("Please fill all the details!")
     }
   };
   const handleChange = (event) => {
