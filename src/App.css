@@ -1,0 +1,41 @@
+
+h1 {
+  font-family:cursive;
+  color:rebeccapurple;
+}
+button {
+  color:tomato;
+}
+img{
+  width:  350px;
+  height: 250px;
+}
+h3, h4{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:salmon;
+}
+
+table, th, td {
+  border: 1px solid rgb(156, 156, 231);
+}
+table {
+  width: 50%;
+}
+td {
+  text-align: center;
+}
+a{
+ font-size: 20px;
+ font-family: cursive;
+}
+a, a:visited {
+  color: black;
+  margin-right: 25px;
+}
+a.active {
+  color: red;
+  margin-right: 25px;
+}
+.d-flex{
+  display: flex
+}
